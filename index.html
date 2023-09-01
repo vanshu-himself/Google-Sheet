@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>google-sheet</title>
+</head>
+<body>
+         <h2 id="current-cell">No cell selected</h2>
+    <div class="header">
+
+     <button id="bold-btn">B</button>
+     <button id="italic-btn" >I</button>
+     <button id="underline-btn">U</button>
+     
+     <label for="text-color">Text-color</label>
+     <input type="color" id="text-color">
+     <label for="bg-color">Bg-color</label>
+     <input type="color" id="bg-color">
+     
+     <button id="left">Left align</button>
+     <button id="center">Center</button>
+     <button id="right">Right Align</button>
+     <br><br>
+    
+  
+     <select name="" id="font-size">
+        <option value="14px">14</option>
+        <option value="16px">16</option>
+        <option value="18px">18</option>
+        <option value="20px">20</option>
+     </select>
+     <select name="" id="font-family">
+        <option value="Serif">Serif</option>
+        <option value="Sans-serif">Sans-serif</option>
+        <option value="cursive">Cursive</option>
+        <option value="monospace">Monospace</option>
+     </select>
+     <button id="cut-btn">Cut</button>
+     <button id="copy-btn">Copy</button>
+     <button id="paste-btn">Paste</button>
+     <br><br>
+     <button onclick="downloadJson()" id="download-btn">Download</button>
+     <input type="file" id="jsonfile" accept=".json">
+    </div>
+     <br>
+
+     
+    
+    <table id="my-table">
+        
+        <thead >
+            <tr id="table-heading-row">
+                <th></th>
+            
+            </tr>
+
+            
+        </thead>
+        <tbody id="table-body">
+           
+        </tbody>
+    </table>
+    <script src="./script.js"></script>
+</body>
+</html>

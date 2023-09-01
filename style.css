@@ -1,0 +1,44 @@
+body{
+    width:100vw;
+}
+table{
+    border-collapse:collapse ;
+    overflow-x: auto;
+    width: auto;
+}
+th,td{
+    border:1px solid black;
+    width:150px;
+    min-width: 80px;
+}td:focus{
+    border: 2px solid blue;
+}
+.header{
+    display: flex;
+    justify-content: space-around;
+    height: 25px;
+    text-align: center;
+    border:2px solid black;
+    padding: 8px;
+    border-radius: 5px;
+    width: 97%;
+    background-color: rgba(105, 138, 138, 0.807);
+}
+button{
+     border-radius: 5px;
+}
+input{
+   border: 2px solid rgb(1, 1, 1);
+   border-radius: 5px;
+}
+select{
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 5px;
+ }
+ h2{
+    background-color: rgba(105, 138, 138, 0.807);
+    width:97%;
+    padding: 8px;
+    border: 2px solid rgb(1, 1, 1);
+    border-radius: 5px;
+ }
